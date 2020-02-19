@@ -9,6 +9,7 @@ header,.home{
 a{
     text-decoration: none !important;
     color: black;
+    cursor: pointer;
 }
 .navbar{
     padding-top: 25px;

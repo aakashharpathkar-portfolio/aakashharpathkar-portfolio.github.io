@@ -15,3 +15,6 @@ function postToGoogle() {
     });
     return false;
 }
+function downloadCV(){
+    location.replace("https://drive.google.com/u/0/uc?id=1UX_mHjPET8wFHd9rY4XNYnSRJ9jBMtDE&export=download");
+}
