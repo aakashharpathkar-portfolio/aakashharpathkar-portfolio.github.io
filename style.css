@@ -5,6 +5,7 @@
 }
 header,.home{
     background-color: #f5f5f5;
+    margin-top: 80px;
 }
 a{
     text-decoration: none !important;
@@ -13,6 +14,7 @@ a{
 }
 .navbar{
     padding-top: 25px;
+    background-color: #f5f5f5;
 }
 .fantasy-field{
     background: url(./assets/Background-image.png);
@@ -47,16 +49,9 @@ a:hover{
 .icon-bar{
     color: black;
 }
-.logo-circle{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: #a29bfe;
-    display: inline-block;
+.logo{
     float: left;
-    position: relative;
-    margin-top: 9px;
-    margin-right: 10px;
+    transform: translateY(-5px);
 }
 .logo-circle>a{
     position: absolute;
@@ -65,7 +60,7 @@ a:hover{
     color: #ffffff !important;    
 }
 .home-section{
-    padding-top: 50px;
+    padding-top: 80px;
 }
 .section-header{
     font-size: 45px;
@@ -136,6 +131,7 @@ a:hover{
 }
 .banner-img{
     width: 100%;
+    padding-top: 25px;
 }
 .bottom-border{
     display: inline-block;
@@ -308,6 +304,7 @@ footer{
 }
 .artwork-img{
     width: 100%;
+    cursor: pointer;
 }
 .artworks{
     padding: 2px !important;
@@ -350,9 +347,6 @@ footer{
 }
 .other-project{
     padding: 0 50px;
-}
-.banner-img{
-    width: 100%;
 }
 .project-2-content{
     padding-top: 20px;
