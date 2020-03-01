@@ -55,13 +55,13 @@
     </header>
 
     <!-- home section -->
-    <div class="home">
+    <div class="home bg-white">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-push-6">
-                    <img class="banner-img" src="./assets/banner-img.png" alt="banner-img">
+                <div class="col-md-6">
+                    <img class="about-me-img" src="./assets/about-me-banner-img.png" alt="banner-img">
                 </div>
-                <div class="col-md-6 col-md-pull-6 home-section">
+                <div class="col-md-6 home-section">
                     <div class="section-header">
                         I’m Aakash Harpathkar
                     </div>
@@ -138,7 +138,7 @@
             </div>
             <div class="row">
                 <div class="col-md-1 col-xs-2 about-content">
-                    <img src="./assets/ak.png" alt="Ak" class="company-img">
+                    <img src="./assets/logo.png " alt="Ak" class="company-img">
                 </div>
                 <div class="col-md-10 about-content">
                     <div class="section-content">
@@ -284,46 +284,91 @@
                 </p>
             </div>
             <div class="row" id="artwork-images">
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-1.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-2.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-3.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-4.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-5.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-6.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-7.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-8.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-9.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-10.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
-                    <img src="./assets/artwork-11.png" alt="artworks" class="artwork-img" id="artwork">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
+                    <img src="./assets/Artwork-11.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
-                <div class="col-md-4 artworks">
+                <div class="col-md-4 artworks" data-toggle="modal" data-target="#myModal">
                     <img src="./assets/artwork-12.png" alt="artworks" class="artwork-img" id="artwork">
                 </div>
 
             </div>
         </div>
     </div>
+
+        <!--begin modal window-->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" title="Close"> <span
+                                class="glyphicon glyphicon-remove"></span></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--CAROUSEL CODE GOES HERE-->
+                        <!--begin carousel-->
+                        <div id="myGallery" class="carousel slide" data-interval="false">
+                            <div class="carousel-inner" id="carousel-inner">
+                                <div class="item active" id="carousel-item"> <img src="./assets/artwork-1.png" alt="artwork">
+                                </div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-2.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-3.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-4.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-5.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-6.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-7.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-8.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-9.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-10.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-11.png" alt="artwork"></div>
+                                <div class="item" id="carousel-item"> <img src="./assets/artwork-12.png" alt="artwork"></div>
+                                <!--end carousel-inner-->
+                            </div>
+                            <!--Begin Previous and Next buttons-->
+                            <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#myGallery" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                            <!--end carousel-->
+                        </div>
+                        <!--end modal-body-->
+                    </div>
+                    <!--end modal-content-->
+                </div>
+                <!--end modal-dialoge-->
+            </div>
+        </div>
 
     <!-- footer -->
     <footer>
