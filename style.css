@@ -137,8 +137,11 @@ a:hover{
     padding-top: 25px;
 }
 .about-me-img{
-    width: 114%;
-    transform: translate(-105px,30px);
+    width: 110%;
+    transform: translate(-50px,45px);
+}
+.pt-10{
+    padding-top: 100px;
 }
 .bottom-border{
     display: inline-block;
@@ -435,3 +438,4 @@ footer{
         padding-top: 0px;
     }
 }
+
